@@ -9,35 +9,70 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo text-light">Header Logo</div>
-        <ul class="links">
-            <li><a class="text-light-dim" href="">header link one</a></li>
-            <li><a class="text-light-dim" href="">header link two</a></li>
-            <li><a class="text-light-dim" href="">header link three</a></li>
-        </ul>
-    </div>
-    <div class="hero">
-        <div class="hero-content">
-            <h1 class="text-light">This Website is awesome</h1>
-            <p class="text-light">This website has some subtext that goes here under the main title. It's a smaller font and the color is
+    <header class="header">
+        <div class="logo">Header Logo</div>
+        <nav class="nav-links">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>This website is <strong>awesome</strong></h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is
                 lower contrast</p>
-            <button class="text-light">Sign up</button>
+            <button>Sign up</button>
         </div>
         <div class="hero-image">
-            <img src="./images/stained-glass.jpg" alt="Hero Image">
+            <p>this is a placeholder for an image</p>
         </div>
-    </div>
-    <div class="content">
-        <div class="content-title"></div>
-        <div class="content-items"></div>
-    </div>
-    <div class="quote"></div>
-    <div class="contact">
-        <div class="card">
+    </section>
+
+    <section class="info-section">
+        <h2>Some random information.</h2>
+        <div class="info-cards">
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
         </div>
-    </div>
-    <div class="footer"></div>
+    </section>
+
+    <section class="quote">
+        <p class="quote-text">
+            <em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+                people will actually read it. Who knows? All I know is that it looks nice.</em>
+        </p>
+        <p class="quote-author"><strong>-Thor, God of Thunder</strong></p>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-box">
+            <div class="cta-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 
 </html>
